@@ -42,7 +42,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link" href="?page=decision_tree">C4.5</a></li>
+                <li class="nav-item"><a class="nav-link" href="?page=tree">C4.5</a></li>
                 <li class="nav-item"><a class="nav-link" href="?page=naive_bayes">Naive Bayes</a></li>
                 <li class="nav-item"><a class="nav-link" href="#knn">K-NN</a></li>
             </ul>
