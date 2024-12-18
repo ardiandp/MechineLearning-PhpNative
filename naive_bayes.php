@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prediksi Kelulusan Mahasiswa</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
 </head>
 <body>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <h1 class="mb-4">Prediksi Kelulusan Mahasiswa</h1>
-                <form action="prediksi.php" method="POST" class="needs-validation" novalidate>
+                <form action="?page=prediksi_naive_bayes" method="POST" class="needs-validation" novalidate>
                     <div class="form-group">
                         <label for="ipk">IPK:</label>
                         <input type="number" step="0.01" id="ipk" name="ipk" class="form-control" required>
@@ -30,8 +30,9 @@
                     <button type="submit" class="btn btn-primary mt-3">Proses</button>
                 </form>
             </div>
+            
             <div class="col-md-6">
-                <h2>Data Mahasiswa</h2>
+                <h2>Data Set Mahasiswa</h2>
                 <?php
                 include 'db.php';
 
@@ -58,4 +59,6 @@
 
                 $conn->close();
                 ?>
-
+                </div>
+</body>
+</html>

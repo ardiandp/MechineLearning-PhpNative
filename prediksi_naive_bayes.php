@@ -86,7 +86,7 @@ if ($probTepat > $probTidakTepat) {
                     <h2>Prediksi: <span class="text-primary"><?= $prediction ?></span></h2>
                 </div>
                 <div class="modal-footer">
-                    <a href="index.php" class="btn btn-primary">Kembali</a>
+                    <a href="javascript:window.history.back();" class="btn btn-primary">Kembali</a>
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@ if ($probTepat > $probTidakTepat) {
             modal.show();
 
             setTimeout(function() {
-                window.location.href = 'index.php';
+                window.history.go(-1);
             }, 3000); // Redirect after 3 seconds
         });
     </script>
