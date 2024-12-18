@@ -42,9 +42,9 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link" href="?page=decision_tree">C4.5</a></li>
-                <li class="nav-item"><a class="nav-link" href="?page=prediksi_kelulusan">Prediksi Kelulusan</a></li>
-                <li class="nav-item"><a class="nav-link" href="#knn">K-NN</a></li>
+                <li class="nav-item"><a class="nav-link" href="?page=tree">C4.5</a></li>
+                <li class="nav-item"><a class="nav-link" href="?page=naive_bayes">Naive Bayes</a></li>
+                <li class="nav-item"><a class="nav-link" href="?page=knn">K-NN</a></li>
             </ul>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
@@ -67,7 +67,8 @@
         include 'beranda.php';
     }
     ?>
-
+</div>
+</div>
     <!-- Footer -->
     <footer>
         &copy; 2024 Data Mining App. All Rights Reserved.
